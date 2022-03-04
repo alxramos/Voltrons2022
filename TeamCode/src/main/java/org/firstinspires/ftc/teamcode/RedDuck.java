@@ -114,7 +114,7 @@ public class RedDuck extends LinearOpMode {
 
             drive.leftTimed(0.2, 600, 180, gyroKp);
 
-            duckArm.setPower(0.05);
+            duckArm.setPower(0.1);
             sleep(8000);
             duckArm.setPower(0);
 
